@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Fluffy-Agency-with-React/static/css/main.1dba39ce.css",
+    "main.js": "/Fluffy-Agency-with-React/static/js/main.aeddc813.js",
+    "static/js/787.b701888c.chunk.js": "/Fluffy-Agency-with-React/static/js/787.b701888c.chunk.js",
+    "static/media/uploading-illustration.png": "/Fluffy-Agency-with-React/static/media/uploading-illustration.bf47589e4285bf98df53.png",
+    "static/media/AvenirNextLTPro-Bold.otf": "/Fluffy-Agency-with-React/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
+    "static/media/AvenirNextLTPro-Regular.otf": "/Fluffy-Agency-with-React/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
+    "index.html": "/Fluffy-Agency-with-React/index.html",
+    "main.1dba39ce.css.map": "/Fluffy-Agency-with-React/static/css/main.1dba39ce.css.map",
+    "main.aeddc813.js.map": "/Fluffy-Agency-with-React/static/js/main.aeddc813.js.map",
+    "787.b701888c.chunk.js.map": "/Fluffy-Agency-with-React/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dba39ce.css",
+    "static/js/main.aeddc813.js"
+  ]
+}
