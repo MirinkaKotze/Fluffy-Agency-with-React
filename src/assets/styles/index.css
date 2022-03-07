@@ -1,0 +1,19 @@
+/* Fonts */
+@font-face {
+  font-family: AvenirNext;
+  src: url(../fonts/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+  font-family: AvenirNextBold;
+  src: url(../fonts/AvenirNextLTPro-Bold.otf);
+}
+
+/* Body Styles */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "AvenirNext", serif;
+  color: #13253a;
+}

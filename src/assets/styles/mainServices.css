@@ -1,0 +1,76 @@
+/* Services Block Styles */
+.text_subhead {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 63px;
+  letter-spacing: -0.5px;
+}
+
+.text_supersubhead {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* Services Block Position */
+.services_container {
+  margin-bottom: 130px;
+}
+
+.services_head--intro {
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.services_head--main {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 17px;
+}
+
+.services_info {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.services_info--container {
+  max-width: 370px;
+}
+.services_info--image {
+  max-width: 370px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.services_info--image:hover {
+  transform: scale(1.5) rotate(-10deg);
+}
+
+.services_info--head {
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.services_info--text {
+  text-align: center;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .services_container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .services_info {
+    flex-direction: column;
+  }
+  .services_info--container {
+    margin-bottom: 30px;
+  }
+}

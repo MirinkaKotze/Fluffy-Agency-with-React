@@ -1,0 +1,78 @@
+/* Grow Block Styles */
+.text_intro {
+  color: #2557ab;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21.86px;
+}
+
+.text_head {
+  font-family: "AvenirNextBold", serif;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 62.84px;
+}
+
+.text_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.buttom_orange {
+  background-color: #ff7f57;
+  color: white;
+  border-radius: 3px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Grow Block Position */
+.grow_container {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.grow_text {
+  width: 470px;
+}
+
+.grow_text--intro {
+  padding-bottom: 5px;
+}
+
+.grow_text--head {
+  padding-bottom: 10px;
+}
+.grow_text--info {
+  padding-bottom: 35px;
+}
+
+.grow_button {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.grow_button:hover {
+  transform: scale(1.5);
+}
+
+.grow_image {
+  display: flex;
+  width: 700px;
+  height: 550px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .grow_image {
+    display: none;
+  }
+  .grow_container {
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+}
